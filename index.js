@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Update available tickets (frontend)
         availableTickets.textContent = `Available Tickets: ${movie.capacity - movie.tickets_sold - 1}`;
 
-        // Optionally: Update server with PATCH request
+        //  Update server with PATCH request
         fetch(`http://localhost:3000/films/${movie.id}`, {
           method: 'PATCH',
           headers: { 'Content-Type': 'application/json' },
