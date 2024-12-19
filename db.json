@@ -1,0 +1,54 @@
+{
+  "films": [
+    {
+      "id": "1",
+      "title": "Moana 2",
+      "runtime": 100,
+      "capacity": 113,
+      "showtime": "07:30PM",
+      "tickets_sold": 0,
+      "description": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced..",
+      "poster": "./images/moana2.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Batman vs Superman",
+      "runtime": 151,
+      "capacity": 180,
+      "showtime": "09:00PM",
+      "tickets_sold": 0,
+      "description": "Batman v Superman: Dawn of Justice is a 2016 movie about the clash between Batman and Superman, two vigilantes who are manipulated by Lex Luthor into fighting each other",
+      "poster": "./images/superman.jpg"
+    },
+    {
+      "id": "3",
+      "title": "John Wick: Chapter 4",
+      "runtime": 169,
+      "capacity": 200,
+      "showtime": "08:00PM",
+      "tickets_sold": 0,
+      "description": "John Wick: Chapter 4 is a 2023 action movie about John Wick (Keanu Reeves) seeking vengeance against the High Table.",
+      "poster": "./images/johnwick.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Spider-Man: Across the Spider-Verse",
+      "runtime": 140,
+      "capacity": 200,
+      "showtime": "06:00PM",
+      "tickets_sold": 0,
+      "description": "Spider-Man: Across the Spider-Verse is a 2023 animated superhero film about Miles Morales, who is thrown across the Multiverse and must save his loved ones.",
+      "poster": "./images/spiderman.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Joker",
+      "runtime": 122,
+      "capacity": 150,
+      "showtime": "05:30PM",
+      "tickets_sold": 0,
+      "description": "Arthur Fleck, a party clown and a failed stand-up comedian, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of chaos in Gotham City.",
+      "poster": "./images/joker.jpg"
+    }
+  ]
+}

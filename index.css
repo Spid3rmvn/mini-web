@@ -1,0 +1,99 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styles */
+body {
+  background-color: #141414;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Movie List Styles */
+.movie-list {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.movie-list h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#films {
+  list-style-type: none;
+  padding: 0;
+}
+
+.film-item {
+  margin: 15px 0;
+  cursor: pointer;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.film-item:hover {
+  color: #e50914;
+}
+
+/* Movie Details Styles */
+.movie-details {
+  flex-grow: 1;
+  max-width: 75%;
+  background-color: #1b1b1b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#movie-title {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#movie-poster {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#movie-runtime, #movie-showtime, #movie-description, #available-tickets {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#buy-ticket {
+  background-color: #e50914;
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+#buy-ticket:hover {
+  background-color: red
+}
+
+/* Responsive Styles */
+.movie-list {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.movie-details {
+  width: 100%;
+}
